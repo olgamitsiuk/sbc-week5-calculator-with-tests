@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Calc</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="calc-body">
+            <div class="results">
+                <div id="expression" class="expression">0</div>
+                <div id="result" class="result">0</div>
+            </div>
+
+            <div class="calculator-grid">
+                <div class="clears">
+                    <button id="clear" class="clear-btn">AC</button>
+                    <button id="ce" class="clear-btn">CE</button>
+                </div>
+
+                <div class="numbers">
+                    <button class="number" id="7">7</button>
+                    <button class="number" id="8">8</button>
+                    <button class="number" id="9">9</button>
+                    <button class="number" id="4">4</button>
+                    <button class="number" id="5">5</button>
+                    <button class="number" id="6">6</button>
+                    <button class="number" id="1">1</button>
+                    <button class="number" id="2">2</button>
+                    <button class="number" id="3">3</button>
+                    <button class="number" id="0">0</button>
+                    <button class="number" id=".">.</button>
+                    <button class="equals" id="=">=</button>
+                </div>
+
+                <div class="operators">
+                    <button class="operator" id="*">×</button>
+                    <button class="operator" id="/">÷</button>
+                    <button class="operator" id="+">+</button>
+                    <button class="operator" id="7">−</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="history-container">
+            <h3 class="history-title">History</h3>
+            <div id="past-calc" class="history-list"></div>
+        </div>
+    </div>  
+<script type="module" src="./assets/js/main.js"></script>
+</body>
+</html>
