@@ -2,6 +2,7 @@
 const express = require("express");
 // создаем обьект приложения
 const app = express();
+const path = require("path");
 
 const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({extended: true}));
@@ -30,6 +31,3 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, function () {
     console.log(`http://localhost:${PORT}`);
 });
-
-// для продакшена
-
