@@ -202,3 +202,9 @@ button:active {
         transform: translateX(0);
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
